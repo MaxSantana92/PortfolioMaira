@@ -1,0 +1,68 @@
+---
+import { getLangFromUrl, useTranslations } from '../utils/i18n';
+
+const lang = getLangFromUrl(Astro.url);
+const t = useTranslations(lang);
+---
+
+<section id="about" class="py-20 bg-white dark:bg-gray-900">
+  <div class="container mx-auto px-4">
+    <div class="max-w-6xl mx-auto">
+      <!-- Section Header -->
+      <div class="text-center mb-16">
+        <h2 class="text-3xl md:text-4xl font-bold text-gray-900 dark:text-white mb-4">
+          {t('about.title')}
+        </h2>
+        <p class="text-xl text-primary-600 dark:text-primary-400 mb-8">
+          {t('about.subtitle')}
+        </p>
+        <div class="w-24 h-1 bg-gradient-to-r from-primary-500 to-secondary-500 mx-auto"></div>
+      </div>
+
+      <div class="grid md:grid-cols-2 gap-12 items-center">
+        <!-- Content -->
+        <div class="space-y-6">
+          <p class="text-lg text-gray-600 dark:text-gray-300 leading-relaxed">
+            {t('about.description')}
+          </p>
+          
+          <!-- Skills -->
+          <div class="space-y-4">
+            <div class="flex items-center space-x-3">
+              <div class="w-3 h-3 bg-primary-500 rounded-full"></div>
+              <span class="text-gray-700 dark:text-gray-300">Manejo Integrado de Cultivos</span>
+            </div>
+            <div class="flex items-center space-x-3">
+              <div class="w-3 h-3 bg-primary-500 rounded-full"></div>
+              <span class="text-gray-700 dark:text-gray-300">Agricultura de Precisión</span>
+            </div>
+            <div class="flex items-center space-x-3">
+              <div class="w-3 h-3 bg-primary-500 rounded-full"></div>
+              <span class="text-gray-700 dark:text-gray-300">Sostenibilidad Agrícola</span>
+            </div>
+            <div class="flex items-center space-x-3">
+              <div class="w-3 h-3 bg-primary-500 rounded-full"></div>
+              <span class="text-gray-700 dark:text-gray-300">Tecnología Agrícola</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Stats -->
+        <div class="grid grid-cols-1 sm:grid-cols-3 gap-8">
+          <div class="text-center p-6 bg-gray-50 dark:bg-gray-800 rounded-2xl">
+            <div class="text-3xl font-bold text-primary-600 dark:text-primary-400 mb-2">8+</div>
+            <div class="text-sm text-gray-600 dark:text-gray-400">{t('about.experience')}</div>
+          </div>
+          <div class="text-center p-6 bg-gray-50 dark:bg-gray-800 rounded-2xl">
+            <div class="text-3xl font-bold text-primary-600 dark:text-primary-400 mb-2">150+</div>
+            <div class="text-sm text-gray-600 dark:text-gray-400">{t('about.projects')}</div>
+          </div>
+          <div class="text-center p-6 bg-gray-50 dark:bg-gray-800 rounded-2xl">
+            <div class="text-3xl font-bold text-primary-600 dark:text-primary-400 mb-2">12</div>
+            <div class="text-sm text-gray-600 dark:text-gray-400">{t('about.certifications')}</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
