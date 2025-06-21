@@ -1,6 +1,5 @@
 ---
 import { Image } from 'astro:assets';
-import hero_maira from '../assets/hero_maira.jpg';
 import hero_background from '../assets/hero_background.png';
 
 import { getLangFromUrl, useTranslations } from '../utils/i18n';
@@ -13,26 +12,12 @@ const t = useTranslations(lang);
   <!-- Background Pattern -->
   <div class="absolute inset-0  bg-gradient-to-r from-primary-500 to-transparent opacity-60 dark:opacity-40">
     <Image class="w-auto h-auto object-cover" src={hero_background} alt="hero_maira"/>
-    <!-- <div class="absolute top-10 left-10 w-20 h-20 bg-primary-500 rounded-full animate-bounce-gentle"></div>
-    <div class="absolute top-32 right-20 w-16 h-16 bg-secondary-500 rounded-full animate-bounce-gentle" style="animation-delay: 0.5s;"></div>
-    <div class="absolute bottom-20 left-20 w-12 h-12 bg-primary-400 rounded-full animate-bounce-gentle" style="animation-delay: 1s;"></div>
-    <div class="absolute bottom-32 right-32 w-24 h-24 bg-secondary-400 rounded-full animate-bounce-gentle" style="animation-delay: 1.5s;"></div> -->
   </div>
 
   <div class="relative container px-4 py-20 z-1">
     <div class="max-w-4xl flex text-center animate-fade-in">
-      <!-- Profile Image -->
-      <!-- <div class="mb-8">
-        <div class="w-32 h-32 mx-auto rounded-full bg-gradient-to-r from-primary-500 to-secondary-500 p-1">
-          <div class="w-full h-full rounded-full bg-gray-200 dark:bg-gray-700 flex items-center justify-center">
-            <Image class="w-auto h-auto  rounded-full object-cover" src={hero_maira} alt="hero_maira"/>
-          </div>
-        </div>    
-      </div> -->
-
       <!-- Content -->
       <div class="animate-slide-up">
-        <!-- <p class="text-lg text-gray-600 dark:text-gray-400 mb-2">{t('hero.greeting')}</p> -->
         <h1 class="text-4xl md:text-6xl font-bold text-gray-900 dark:text-white mb-4">
           {t('hero.name')}
         </h1>
