@@ -1,5 +1,8 @@
 ---
-import { getLangFromUrl, useTranslations } from '../utils/i18n';
+import { Image } from "astro:assets";
+import mapeo_satelital from "../assets/about_mapeo_satelital.png";
+
+import { getLangFromUrl, useTranslations } from "../utils/i18n";
 
 const lang = getLangFromUrl(Astro.url);
 const t = useTranslations(lang);
@@ -48,18 +51,17 @@ const t = useTranslations(lang);
         </div>
 
         <!-- Stats -->
-        <div class="grid grid-cols-1 sm:grid-cols-3 gap-8">
-          <div class="text-center p-6 bg-gray-50 dark:bg-gray-800 rounded-2xl">
-            <div class="text-3xl font-bold text-primary-600 dark:text-primary-400 mb-2">8+</div>
-            <div class="text-sm text-gray-600 dark:text-gray-400">{t('about.experience')}</div>
-          </div>
-          <div class="text-center p-6 bg-gray-50 dark:bg-gray-800 rounded-2xl">
-            <div class="text-3xl font-bold text-primary-600 dark:text-primary-400 mb-2">150+</div>
-            <div class="text-sm text-gray-600 dark:text-gray-400">{t('about.projects')}</div>
-          </div>
-          <div class="text-center p-6 bg-gray-50 dark:bg-gray-800 rounded-2xl">
-            <div class="text-3xl font-bold text-primary-600 dark:text-primary-400 mb-2">12</div>
-            <div class="text-sm text-gray-600 dark:text-gray-400">{t('about.certifications')}</div>
+        <div class="grid grid-cols-1 gap-8">
+          <div class="">
+            <div class="relative w-full h-[500px]">
+              <div class="absolute top-0 right-0 w-4/5 h-4/5 bg-accent-500/20 rounded-3xl backdrop-blur-md animate-slide-in-right"></div>
+              <div class="absolute bottom-0 left-0 w-4/5 h-4/5 border-2 border-white/20 rounded-3xl"></div>
+              <Image 
+                src={mapeo_satelital} 
+                alt="Developer working" 
+                class="absolute inset-0 m-auto w-4/5 h-4/5 object-cover rounded-2xl shadow-2xl animate-slide-up"
+              />
+            </div>
           </div>
         </div>
       </div>

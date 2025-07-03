@@ -27,7 +27,7 @@ export const translations = {
     'about.title': 'Sobre mí',
     'about.subtitle': 'Pasión por la gestión sostenible y de precisión.',
     'about.description':
-      'Soy consultora agro-industrial con experiencia en el desarrollo de soluciones sostenibles y de precisión. Mi especialidad incluye el manejo sostenible de cultivos, agricultura de precisión y implementación de tecnologías innovadoras para optimizar la producción agrícola.',
+      'Consultora en Agro-Industria con experiencia en la gestión y el desarrollo de soluciones sostenibles y de precisión. Mi especialidad incluye el manejo sostenible de cultivos, agricultura de precisión e implementación de tecnologías innovadoras para optimizar la producción agrícola.',
     'about.experience': 'Años de experiencia',
     'about.projects': 'Proyectos completados',
     'about.certifications': 'Certificaciones',
@@ -40,26 +40,26 @@ export const translations = {
       'Asesoramiento especializado en manejo de cultivos, suelos y sistemas de riego.',
     'services.precision.title': 'Agricultura de Precisión',
     'services.precision.description':
-      'Implementación de tecnologías GPS, sensores y drones para optimizar recursos.',
+      'Implementación de tecnologías GPS, monitoreo satelital, índices de vigor de planta, humedad y climatología.',
     'services.sustainability.title': 'Agricultura Sostenible',
     'services.sustainability.description':
-      'Desarrollo de prácticas agrícolas que respetan el medio ambiente.',
+      'Desarrollo de prácticas agro-ecológicas. Uso eficiente de recursos y fertilización equilibrada.',
     'services.research.title': 'Investigación y Desarrollo',
     'services.research.description':
-      'Proyectos de investigación aplicada para mejorar la productividad agrícola.',
+      'Proyectos de investigación aplicados para mejorar la productividad agrícola y lograr escalar su negocio.',
 
     // Projects Section
     'projects.title': 'Proyectos',
     'projects.subtitle': 'Algunos de mis trabajos más destacados',
-    'projects.project1.title': 'Sistema de Riego Inteligente',
+    'projects.project1.title': 'IA en Recursos Hídricos',
     'projects.project1.description':
-      'Implementación de sistema automatizado de riego en 500 hectáreas de cultivo de maíz.',
-    'projects.project2.title': 'Agricultura Orgánica Certificada',
+      'Investigaciones en IA para el uso eficiente de recursos hídricos con el objetivo de optimizar el riego en la agricultura.',
+    'projects.project2.title': 'Gestión Agricola Integral',
     'projects.project2.description':
       'Transición completa a agricultura orgánica para finca de 200 hectáreas.',
-    'projects.project3.title': 'Monitoreo con Drones',
+    'projects.project3.title': 'Monitoreo Satelital',
     'projects.project3.description':
-      'Sistema de monitoreo aéreo para detección temprana de plagas y enfermedades.',
+      'Permite la detección temprana de anomalías en cultivos, esto eficientiza la toma de decisiones, las salidas a campo y el uso de recursos.',
     'projects.viewMore': 'Ver más detalles',
 
     // Contact Section
@@ -75,6 +75,10 @@ export const translations = {
     'contact.location': 'Ubicación',
 
     // Footer
+    'footer.title':
+      'Consultora en Agro-Industria con experiencia en la gestión y el desarrollo de soluciones sostenibles y de precisión.',
+    'footer.contact': 'Contacto',
+    'footer.links': 'Enlaces',
     'footer.rights': 'Todos los derechos reservados.',
     'footer.made': 'Hecho con pasión',
     'footer.by': 'por',
@@ -147,6 +151,10 @@ export const translations = {
     'contact.location': 'Location',
 
     // Footer
+    'footer.title':
+      'Agribusiness consultant with experience in the management and development of sustainable and precision solutions.',
+    'footer.contact': 'Contact',
+    'footer.links': 'Links',
     'footer.rights': 'All rights reserved.',
     'footer.made': 'Made with passion',
     'footer.by': 'by',
