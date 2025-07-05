@@ -27,7 +27,7 @@ export const translations = {
     'about.title': 'Sobre mí',
     'about.subtitle': 'Pasión por la gestión sostenible y de precisión.',
     'about.description':
-      'Soy consultora agro-industrial con experiencia en el desarrollo de soluciones sostenibles y de precisión. Mi especialidad incluye el manejo sostenible de cultivos, agricultura de precisión y implementación de tecnologías innovadoras para optimizar la producción agrícola.',
+      'Consultora en Agro-Industria con experiencia en la gestión y el desarrollo de soluciones sostenibles y de precisión. Mi especialidad incluye el manejo sostenible de cultivos, agricultura de precisión e implementación de tecnologías innovadoras para optimizar la producción agrícola.',
     'about.experience': 'Años de experiencia',
     'about.projects': 'Proyectos completados',
     'about.certifications': 'Certificaciones',
@@ -40,26 +40,26 @@ export const translations = {
       'Asesoramiento especializado en manejo de cultivos, suelos y sistemas de riego.',
     'services.precision.title': 'Agricultura de Precisión',
     'services.precision.description':
-      'Implementación de tecnologías GPS, sensores y drones para optimizar recursos.',
+      'Implementación de tecnologías GPS, monitoreo satelital, índices de vigor de planta, humedad y climatología.',
     'services.sustainability.title': 'Agricultura Sostenible',
     'services.sustainability.description':
-      'Desarrollo de prácticas agrícolas que respetan el medio ambiente.',
+      'Desarrollo de prácticas agro-ecológicas. Uso eficiente de recursos y fertilización equilibrada.',
     'services.research.title': 'Investigación y Desarrollo',
     'services.research.description':
-      'Proyectos de investigación aplicada para mejorar la productividad agrícola.',
+      'Proyectos de investigación aplicados para mejorar la productividad agrícola y lograr escalar su negocio.',
 
     // Projects Section
     'projects.title': 'Proyectos',
     'projects.subtitle': 'Algunos de mis trabajos más destacados',
-    'projects.project1.title': 'Sistema de Riego Inteligente',
+    'projects.project1.title': 'IA en Recursos Hídricos',
     'projects.project1.description':
-      'Implementación de sistema automatizado de riego en 500 hectáreas de cultivo de maíz.',
-    'projects.project2.title': 'Agricultura Orgánica Certificada',
+      'Investigaciones en IA para el uso eficiente de recursos hídricos con el objetivo de optimizar el riego en la agricultura.',
+    'projects.project2.title': 'Gestión Agricola Integral',
     'projects.project2.description':
       'Transición completa a agricultura orgánica para finca de 200 hectáreas.',
-    'projects.project3.title': 'Monitoreo con Drones',
+    'projects.project3.title': 'Monitoreo Satelital',
     'projects.project3.description':
-      'Sistema de monitoreo aéreo para detección temprana de plagas y enfermedades.',
+      'Permite la detección temprana de anomalías en cultivos, esto eficientiza la toma de decisiones, las salidas a campo y el uso de recursos.',
     'projects.viewMore': 'Ver más detalles',
 
     // Contact Section
@@ -75,6 +75,10 @@ export const translations = {
     'contact.location': 'Ubicación',
 
     // Footer
+    'footer.title':
+      'Consultora en Agro-Industria con experiencia en la gestión y el desarrollo de soluciones sostenibles y de precisión.',
+    'footer.contact': 'Contacto',
+    'footer.links': 'Enlaces',
     'footer.rights': 'Todos los derechos reservados.',
     'footer.made': 'Hecho con pasión',
     'footer.by': 'por',
@@ -90,16 +94,17 @@ export const translations = {
     // Hero Section
     'hero.greeting': "Hello, I'm",
     'hero.name': 'Maira Mateo',
-    'hero.title': 'Agricultural Engineer',
-    'hero.subtitle': 'Specialized in sustainable agriculture and modern agricultural technology',
+    'hero.title': 'Agribusiness Consultant',
+    'hero.subtitle': 'Professional in Agro-Business Management',
+    'hero.legend': 'Sustainable Agriculture | Precision Agriculture',
     'hero.cta': 'View my work',
-    'hero.contact': 'Contact me',
+    'hero.contact': 'Contact',
 
     // About Section
     'about.title': 'About me',
-    'about.subtitle': 'Passion for sustainable agriculture',
+    'about.subtitle': 'Passion for sustainable and precision management.',
     'about.description':
-      'I am an agricultural engineer with over 8 years of experience in developing sustainable agricultural solutions. My expertise includes integrated crop management, precision agriculture, and implementation of innovative technologies to optimize agricultural production.',
+      'Agro-Industry Consultant with experience in the management and development of sustainable and precision solutions. My specialty includes sustainable crop management, precision agriculture, and implementation of innovative technologies to optimize agricultural production.',
     'about.experience': 'Years of experience',
     'about.projects': 'Completed projects',
     'about.certifications': 'Certifications',
@@ -112,26 +117,26 @@ export const translations = {
       'Specialized advice on crop management, soils, and irrigation systems.',
     'services.precision.title': 'Precision Agriculture',
     'services.precision.description':
-      'Implementation of GPS technologies, sensors, and drones to optimize resources.',
+      'Implementation of GPS technologies, satellite monitoring, plant vigor indices, humidity, and climatology.',
     'services.sustainability.title': 'Sustainable Agriculture',
     'services.sustainability.description':
-      'Development of agricultural practices that respect the environment.',
-    'services.research.title': 'Research & Development',
+      'Development of agro-ecological practices. Efficient use of resources and balanced fertilization.',
+    'services.research.title': 'Research and Development',
     'services.research.description':
-      'Applied research projects to improve agricultural productivity.',
+      'Applied research projects to improve agricultural productivity and scale your business.',
 
     // Projects Section
     'projects.title': 'Projects',
     'projects.subtitle': 'Some of my most outstanding work',
-    'projects.project1.title': 'Smart Irrigation System',
+    'projects.project1.title': 'AI in Water Resources',
     'projects.project1.description':
-      'Implementation of automated irrigation system in 500 hectares of corn cultivation.',
-    'projects.project2.title': 'Certified Organic Agriculture',
+      'AI research for efficient use of water resources with the aim of optimizing irrigation in agriculture.',
+    'projects.project2.title': 'Comprehensive Agricultural Management',
     'projects.project2.description':
       'Complete transition to organic agriculture for 200-hectare farm.',
-    'projects.project3.title': 'Drone Monitoring',
+    'projects.project3.title': 'Satellite Monitoring',
     'projects.project3.description':
-      'Aerial monitoring system for early detection of pests and diseases.',
+      'Enables early detection of crop anomalies, which streamlines decision-making, field visits, and resource use.',
     'projects.viewMore': 'View more details',
 
     // Contact Section
@@ -147,6 +152,10 @@ export const translations = {
     'contact.location': 'Location',
 
     // Footer
+    'footer.title':
+      'Agro-Industry Consultant with experience in the management and development of sustainable and precision solutions.',
+    'footer.contact': 'Contact',
+    'footer.links': 'Links',
     'footer.rights': 'All rights reserved.',
     'footer.made': 'Made with passion',
     'footer.by': 'by',
