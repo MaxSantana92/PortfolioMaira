@@ -28,13 +28,9 @@ const currentLang = getLangFromUrl(url);
     select.addEventListener('change', (e) => {
       const target = e.target as HTMLSelectElement;
       const newLang = target.value;
-      const currentPath = window.location.pathname;
       
-      // Remove current language prefix if exists
-      const pathWithoutLang = currentPath.replace(/^\/(es|en)/, '') || '/';
-      
-      // Add new language prefix if not default
-      const newPath = newLang === 'es' ? pathWithoutLang : `/${newLang}${pathWithoutLang}`;
+      // Always go to the main page of the selected language
+      const newPath = newLang === 'es' ? '/' : `/${newLang}/`;
       
       window.location.href = newPath;
     });
