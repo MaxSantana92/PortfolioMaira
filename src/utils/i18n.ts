@@ -94,16 +94,17 @@ export const translations = {
     // Hero Section
     'hero.greeting': "Hello, I'm",
     'hero.name': 'Maira Mateo',
-    'hero.title': 'Agricultural Engineer',
-    'hero.subtitle': 'Specialized in sustainable agriculture and modern agricultural technology',
+    'hero.title': 'Agribusiness Consultant',
+    'hero.subtitle': 'Professional in Agro-Business Management',
+    'hero.legend': 'Sustainable Agriculture | Precision Agriculture',
     'hero.cta': 'View my work',
-    'hero.contact': 'Contact me',
+    'hero.contact': 'Contact',
 
     // About Section
     'about.title': 'About me',
-    'about.subtitle': 'Passion for sustainable agriculture',
+    'about.subtitle': 'Passion for sustainable and precision management.',
     'about.description':
-      'I am an agricultural engineer with over 8 years of experience in developing sustainable agricultural solutions. My expertise includes integrated crop management, precision agriculture, and implementation of innovative technologies to optimize agricultural production.',
+      'Agro-Industry Consultant with experience in the management and development of sustainable and precision solutions. My specialty includes sustainable crop management, precision agriculture, and implementation of innovative technologies to optimize agricultural production.',
     'about.experience': 'Years of experience',
     'about.projects': 'Completed projects',
     'about.certifications': 'Certifications',
@@ -116,26 +117,26 @@ export const translations = {
       'Specialized advice on crop management, soils, and irrigation systems.',
     'services.precision.title': 'Precision Agriculture',
     'services.precision.description':
-      'Implementation of GPS technologies, sensors, and drones to optimize resources.',
+      'Implementation of GPS technologies, satellite monitoring, plant vigor indices, humidity, and climatology.',
     'services.sustainability.title': 'Sustainable Agriculture',
     'services.sustainability.description':
-      'Development of agricultural practices that respect the environment.',
-    'services.research.title': 'Research & Development',
+      'Development of agro-ecological practices. Efficient use of resources and balanced fertilization.',
+    'services.research.title': 'Research and Development',
     'services.research.description':
-      'Applied research projects to improve agricultural productivity.',
+      'Applied research projects to improve agricultural productivity and scale your business.',
 
     // Projects Section
     'projects.title': 'Projects',
     'projects.subtitle': 'Some of my most outstanding work',
-    'projects.project1.title': 'Smart Irrigation System',
+    'projects.project1.title': 'AI in Water Resources',
     'projects.project1.description':
-      'Implementation of automated irrigation system in 500 hectares of corn cultivation.',
-    'projects.project2.title': 'Certified Organic Agriculture',
+      'AI research for efficient use of water resources with the aim of optimizing irrigation in agriculture.',
+    'projects.project2.title': 'Comprehensive Agricultural Management',
     'projects.project2.description':
       'Complete transition to organic agriculture for 200-hectare farm.',
-    'projects.project3.title': 'Drone Monitoring',
+    'projects.project3.title': 'Satellite Monitoring',
     'projects.project3.description':
-      'Aerial monitoring system for early detection of pests and diseases.',
+      'Enables early detection of crop anomalies, which streamlines decision-making, field visits, and resource use.',
     'projects.viewMore': 'View more details',
 
     // Contact Section
@@ -152,7 +153,7 @@ export const translations = {
 
     // Footer
     'footer.title':
-      'Agribusiness consultant with experience in the management and development of sustainable and precision solutions.',
+      'Agro-Industry Consultant with experience in the management and development of sustainable and precision solutions.',
     'footer.contact': 'Contact',
     'footer.links': 'Links',
     'footer.rights': 'All rights reserved.',
