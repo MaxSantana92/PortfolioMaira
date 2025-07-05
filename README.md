@@ -1,48 +1,72 @@
-# Astro Starter Kit: Basics
+# Portfolio de Maira - Agrónoma
 
-```sh
-npm create astro@latest -- --template basics
-```
+Portfolio profesional de Maira, especialista en agronomía y mapeo satelital.
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/withastro/astro/tree/latest/examples/basics)
-[![Open with CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)](https://codesandbox.io/p/sandbox/github/withastro/astro/tree/latest/examples/basics)
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/withastro/astro?devcontainer_path=.devcontainer/basics/devcontainer.json)
+## 🚀 Despliegue en GitHub Pages
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+Este proyecto está configurado para desplegarse automáticamente en GitHub Pages usando GitHub Actions.
 
-![just-the-basics](https://github.com/withastro/astro/assets/2244813/a0a5533c-a856-4198-8470-2d67b1d7c554)
+### Configuración del despliegue:
 
-## 🚀 Project Structure
+1. **GitHub Pages**: Asegúrate de que GitHub Pages esté habilitado en tu repositorio
+2. **Source**: Configura GitHub Pages para usar "GitHub Actions" como fuente
+3. **Workflow**: El archivo `.github/workflows/deploy.yml` se ejecutará automáticamente en cada push a la rama `main`
 
-Inside of your Astro project, you'll see the following folders and files:
+### URL del sitio:
+
+- El sitio estará disponible en: `https://[tu-usuario].github.io/PortfolioMaira`
+
+## 🧞 Comandos de desarrollo
+
+Todos los comandos se ejecutan desde la raíz del proyecto:
+
+| Comando             | Acción                                               |
+| :------------------ | :--------------------------------------------------- |
+| `npm install`       | Instala las dependencias                             |
+| `npm run dev`       | Inicia el servidor de desarrollo en `localhost:4321` |
+| `npm run build`     | Construye el sitio de producción en `./dist/`        |
+| `npm run preview`   | Previsualiza la construcción localmente              |
+| `npm run astro ...` | Ejecuta comandos CLI de Astro                        |
+
+## 🏗️ Estructura del proyecto
 
 ```text
 /
 ├── public/
-│   └── favicon.svg
+│   ├── favicon.svg
+│   └── .nojekyll
 ├── src/
+│   ├── components/
+│   │   ├── About.astro
+│   │   ├── Contact.astro
+│   │   ├── Footer.astro
+│   │   ├── Header.astro
+│   │   ├── Hero.astro
+│   │   ├── Projects.astro
+│   │   └── Services.astro
 │   ├── layouts/
 │   │   └── Layout.astro
-│   └── pages/
-│       └── index.astro
+│   ├── pages/
+│   │   ├── index.astro
+│   │   └── en/
+│   │       └── index.astro
+│   └── utils/
+│       └── i18n.ts
+├── .github/workflows/
+│   └── deploy.yml
 └── package.json
 ```
 
-To learn more about the folder structure of an Astro project, refer to [our guide on project structure](https://docs.astro.build/en/basics/project-structure/).
+## 🌐 Internacionalización
 
-## 🧞 Commands
+El sitio soporta múltiples idiomas:
 
-All commands are run from the root of the project, from a terminal:
+- Español (por defecto)
+- Inglés
 
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `npm install`             | Installs dependencies                            |
-| `npm run dev`             | Starts local dev server at `localhost:4321`      |
-| `npm run build`           | Build your production site to `./dist/`          |
-| `npm run preview`         | Preview your build locally, before deploying     |
-| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro -- --help` | Get help using the Astro CLI                     |
+## 🎨 Tecnologías utilizadas
 
-## 👀 Want to learn more?
-
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+- **Astro**: Framework para sitios estáticos
+- **Tailwind CSS**: Framework de CSS utilitario
+- **TypeScript**: Tipado estático
+- **GitHub Actions**: CI/CD y despliegue automático
