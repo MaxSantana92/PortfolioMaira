@@ -163,8 +163,14 @@ export const translations = {
 } as const
 
 export function getLangFromUrl(url: URL) {
-  const [, lang] = url.pathname.split('/')
-  if (lang in languages) return lang as keyof typeof languages
+  const base = (import.meta.env?.BASE_URL ?? '/').replace(/^\/|\/$/g, '')
+  const segments = url.pathname.replace(/^\/|\/$/g, '').split('/')
+
+  // Si el primer segmento es el base, saltarlo
+  const startIndex = base && segments[0] === base ? 1 : 0
+  const maybeLang = segments[startIndex] || ''
+
+  if (maybeLang in languages) return maybeLang as keyof typeof languages
   return defaultLang
 }
 

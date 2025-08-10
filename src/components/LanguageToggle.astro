@@ -21,17 +21,22 @@ const currentLang = getLangFromUrl(url);
 </div>
 
 <script>
+  const BASE = import.meta.env.BASE_URL || '/';
   function initLanguage() {
     const select = document.getElementById('language-select') as HTMLSelectElement;
-    if (!select) return;
+    console.log('select:', select);
+
+    if (!(select instanceof HTMLSelectElement)) return;
 
     select.addEventListener('change', (e) => {
+      console.log('change:', e);
+
       const target = e.target as HTMLSelectElement;
       const newLang = target.value;
       
       // Always go to the main page of the selected language
-      const newPath = newLang === 'es' ? '/' : `/${newLang}/`;
-      
+      const newPath = `${BASE}/${newLang}/`;
+      console.log('PATH:', newPath);
       window.location.href = newPath;
     });
   }

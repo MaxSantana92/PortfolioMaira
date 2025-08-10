@@ -2,7 +2,6 @@
 import { defineConfig } from 'astro/config'
 import tailwind from '@astrojs/tailwind'
 
-// https://astro.build/config
 export default defineConfig({
   integrations: [tailwind()],
   site: 'https://agronomist-portfolio.com',
@@ -10,8 +9,6 @@ export default defineConfig({
   i18n: {
     defaultLocale: 'es',
     locales: ['es', 'en'],
-    routing: {
-      prefixDefaultLocale: false,
-    },
+    routing: { prefixDefaultLocale: true }, // <- ahora /es y /en
   },
 })
