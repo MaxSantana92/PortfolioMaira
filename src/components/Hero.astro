@@ -10,40 +10,46 @@ const t = useTranslations(lang);
 
 <section id="home" class="min-h-screen flex items-center justify-center relative overflow-hidden bg-gradient-to-br from-green-50 to-blue-50 dark:from-gray-900 dark:to-gray-800">
   <!-- Background Pattern -->
-  <div class="absolute inset-0  bg-gradient-to-r from-primary-500 to-transparent opacity-60 dark:opacity-40">
-    <Image class="w-auto h-auto object-cover" src={hero_background} alt="hero_maira"/>
+  <div class="absolute inset-0 bg-gradient-to-r from-primary-500 to-transparent opacity-60 dark:opacity-40">
+    <Image 
+      class="w-full h-full object-cover" 
+      src={hero_background} 
+      alt="hero_maira"
+      width={1920}
+      height={1080}
+    />
   </div>
 
-  <div class="relative container px-4 py-20 z-1">
-    <div class="max-w-4xl flex text-center animate-fade-in">
+  <div class="relative container px-4 sm:px-6 lg:px-8 py-12 sm:py-16 lg:py-20 z-10">
+    <div class="max-w-4xl mx-auto text-center animate-fade-in">
       <!-- Content -->
       <div class="animate-slide-up">
-        <h1 class="text-4xl md:text-6xl font-bold text-gray-900 dark:text-white mb-4">
+        <h1 class="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 dark:text-white mb-3 sm:mb-4">
           {t('hero.name')}
         </h1>
-        <h2 class="text-2xl md:text-3xl font-semibold text-primary-600 dark:text-primary-400 mb-6">
+        <h2 class="text-xl sm:text-2xl md:text-3xl font-semibold text-primary-600 dark:text-primary-400 mb-4 sm:mb-6">
           {t('hero.title')}
         </h2>
-        <p class="text-2xl text-gray-600 dark:text-gray-300 max-w-2xl mx-auto leading-relaxed">
+        <p class="text-lg sm:text-xl md:text-2xl text-gray-600 dark:text-gray-300 max-w-2xl mx-auto leading-relaxed mb-4 sm:mb-6">
           {t('hero.subtitle')}
         </p>
-        <p class="text-xl text-gray-600 dark:text-gray-300 mb-12 max-w-2xl mx-auto leading-relaxed">
+        <p class="text-base sm:text-lg md:text-xl text-gray-600 dark:text-gray-300 mb-8 sm:mb-12 max-w-2xl mx-auto leading-relaxed">
           {t('hero.legend')}
         </p>
         <!-- CTA Buttons -->
-        <div class="flex flex-col sm:flex-row gap-4 justify-center items-center">
+        <div class="flex flex-col sm:flex-row gap-3 sm:gap-4 justify-center items-center">
           <a
             href="#projects"
-            class="inline-flex items-center px-8 py-4 bg-gradient-to-r from-primary-600 to-secondary-600 text-white font-semibold rounded-full hover:shadow-lg hover:scale-105 transition-all duration-300 group"
+            class="inline-flex items-center px-6 sm:px-8 py-3 sm:py-4 bg-gradient-to-r from-primary-600 to-secondary-600 text-white font-semibold rounded-full hover:shadow-lg hover:scale-105 transition-all duration-300 group text-sm sm:text-base"
           >
             {t('hero.cta')}
-            <svg class="ml-2 w-5 h-5 group-hover:translate-x-1 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <svg class="ml-2 w-4 h-4 sm:w-5 sm:h-5 group-hover:translate-x-1 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"></path>
             </svg>
           </a>
           <a
             href="#contact"
-            class="inline-flex items-center px-8 py-4 bg-white dark:bg-gray-800 text-gray-900 dark:text-white font-semibold rounded-full border-2 border-primary-500 hover:bg-primary-50 dark:hover:bg-gray-700 hover:scale-105 transition-all duration-300"
+            class="inline-flex items-center px-6 sm:px-8 py-3 sm:py-4 bg-white dark:bg-gray-800 text-gray-900 dark:text-white font-semibold rounded-full border-2 border-primary-500 hover:bg-primary-50 dark:hover:bg-gray-700 hover:scale-105 transition-all duration-300 text-sm sm:text-base"
           >
             {t('hero.contact')}
           </a>
@@ -51,8 +57,8 @@ const t = useTranslations(lang);
       </div>
 
       <!-- Scroll Indicator -->
-      <div class="absolute bottom-8 left-52 transform -translate-x-1/2 animate-bounce">
-        <svg class="w-6 h-6 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+      <div class="absolute bottom-4 sm:bottom-8 left-1/2 transform -translate-x-1/2 animate-bounce">
+        <svg class="w-5 h-5 sm:w-6 sm:h-6 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
           <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 14l-7 7m0 0l-7-7m7 7V3"></path>
         </svg>
       </div>
