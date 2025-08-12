@@ -31,6 +31,10 @@ export const translations = {
     'about.experience': 'Años de experiencia',
     'about.projects': 'Proyectos completados',
     'about.certifications': 'Certificaciones',
+    'about.skills.icm': 'Manejo Integral de Cultivos',
+    'about.skills.precision': 'Agricultura de Precisión',
+    'about.skills.sustainability': 'Sostenibilidad Agrícola',
+    'about.skills.technology': 'Tecnología Agrícola',
 
     // Services Section
     'services.title': 'Servicios',
@@ -108,6 +112,10 @@ export const translations = {
     'about.experience': 'Years of experience',
     'about.projects': 'Completed projects',
     'about.certifications': 'Certifications',
+    'about.skills.icm': 'Comprehensive Crop Management',
+    'about.skills.precision': 'Precision Agriculture',
+    'about.skills.sustainability': 'Agricultural Sustainability',
+    'about.skills.technology': 'Agricultural Technology',
 
     // Services Section
     'services.title': 'Services',
